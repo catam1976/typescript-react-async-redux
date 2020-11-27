@@ -1,0 +1,130 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "jsRules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "interface-name": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "max-classes-per-file": false,
+    "object-literal-key-quotes": {
+      "options": [
+        "consistent-as-needed"
+      ]
+    },
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "variable-name": {
+      "options": [
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    }
+  },
+  "linterOptions": {
+    "exclude": [
+      "./manifests/**",
+      "./coverage/**",
+      "**/*.json"
+    ]
+  },
+  "rules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "no-any": true,
+    "no-magic-numbers": true,
+    "no-unsafe-any": true,
+    "no-empty-interface": true,
+    "no-require-imports": true,
+    "no-namespace": true,
+    "no-console": false,
+    "ban-ts-ignore": true,
+    "interface-name": false,
+    "jsx-no-lambda": false,
+    "triple-equals": [
+      true,
+      "allow-null-check",
+      "allow-undefined-check"
+    ],
+    "jsx-no-multiline-js": false,
+    "jsx-wrap-multiline": false,
+    "max-classes-per-file": false,
+    "object-literal-key-quotes": {
+      "options": [
+        "consistent-as-needed"
+      ]
+    },
+    "object-literal-sort-keys": false,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "variable-name": {
+      "options": [
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    },
+    "whitespace": [
+      true,
+      "check-module",
+      "check-decl",
+      "check-preblock"
+    ],
+    "member-ordering": [
+      true,
+      "public-before-private",
+      "static-before-instance",
+      "variables-before-functions"
+    ],
+    "no-duplicate-variable": true,
+    "no-floating-promises": true,
+    "no-invalid-this": true,
+    "no-unsafe-finally": true,
+    "no-use-before-declare": true,
+    "strict-boolean-expressions": true,
+    "unnecessary-constructor": true,
+    "no-duplicate-imports": true,
+    "newline-before-return": true,
+    "prefer-const": true
+  }
+}
